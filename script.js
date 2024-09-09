@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Update text content for each level
-    updateLevelText("levelExtreme", "/images/level_extreme");
-    updateLevelText("levelCool", "/images/level_cool");
-    updateLevelText("levelExpert", "/images/level_expert");
-    updateLevelText("levelSkilled", "/images/level_skilled");
-    updateLevelText("levelNovice", "/images/level_novice");
-    updateLevelText("levelBeginner", "/images/level_beginner");
-    updateLevelText("levelGood", "/images/level_good");
-    updateLevelText("levelNormal", "/images/level_normal");
-    updateLevelText("levelEpic", "/images/level_epic");
-    updateLevelText("levelLegendary", "/images/level_legendary");
+    updateLevelText("levelExtreme", "images/level_extreme.png");
+    updateLevelText("levelCool", "images/level_cool.png");
+    updateLevelText("levelExpert", "images/level_expert.png");
+    updateLevelText("levelSkilled", "images/level_skilled.png");
+    updateLevelText("levelNovice", "images/level_novice.png");
+    updateLevelText("levelBeginner", "images/level_beginner.png");
+    updateLevelText("levelGood", "images/level_good.png");
+    updateLevelText("levelNormal", "images/level_normal.png");
+    updateLevelText("levelEpic", "images/level_epic.png");
+    updateLevelText("levelLegendary", "images/level_legendary.png");
 });
 
 // Function to update text content based on ID
