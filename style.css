@@ -1,0 +1,283 @@
+body {
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  background-image: url('https://cdn.glitch.global/e599f8fd-9c51-4a18-aae8-bebd72a3f7d4/websitebg.webp?v=1708800876909');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  justify-items: center;
+  align-content: center;
+  display: grid;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #ffffff;/* Light text */
+}
+
+p {
+  color: #ffffff; /* Light text */
+}
+
+.about {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.about p {
+  color: #ffffff;
+}
+
+.command {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.command h3,
+.command p {
+  color: #ffffff; /* Light text */
+}
+
+#credit13 {
+  color: cyan;
+  text-decoration: none;
+}
+
+#credit13:visited {
+  color: cyan;
+}
+
+#credit13:hover {
+  color: blue;
+}
+
+#credit13:active: {
+  color: blue;
+}
+
+#creditmg {
+  color: lime;
+  text-decoration: none;
+}
+
+#creditmg:visited {
+  color: lime;
+}
+
+#creditmg:hover {
+  color: green;
+}
+
+#creditmg:active: {
+  color: green;
+}
+
+.border-container {
+  border: 1px solid #000000; /* Add a border */
+  padding: 10px; /* Add padding for spacing */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.command-text {
+  width: 100%;
+  height: 100%;
+  resize: none; /* Prevent resizing */
+}
+
+.command p,
+.command h3,
+.command textarea {
+  font-weight: bold; /* Make all text bold */
+}
+
+.text-area-container {
+  background-color: inherit;
+  width: 300px;
+  height: 100px;
+  overflow: auto;
+}
+
+.command textarea {
+  color: #ffffff;
+  border-color: black;
+  border-radius: 10px;
+  resize: none; /* Prevent resizing */
+  background-color: rgba(0, 0, 0, 0.3);
+  font-weight: bold; /* Make textarea text bold */
+  width: 100%; /* Ensure textarea fills container width */
+  height: 100px; /* Set textarea height */
+  overflow: hidden;
+}
+
+.levelExtreme,
+.levelCool,
+.levelExpert,
+.levelSkilled,
+.levelNovice,
+.levelBeginner,
+.levelGood,
+.levelNormal,
+.levelEpic,
+.levelLegendary {
+  font-weight: bold; /* Make level text bold */
+  display: inline-block; /* Make the level elements inline-block */
+  width: 40%;
+}
+
+@keyframes GreenChanger {
+  0% {
+    background-color: #4edb51;
+  }
+  50% {
+    background-color: #008000;
+  }
+    100% {
+    background-color: #4edb51;
+  }
+}
+
+.levelEpic {
+  animation: GreenChanger 5s linear infinite;
+  transition: color 0.5s;
+  background-clip: text;
+  background-color: transparent;
+  color: transparent;
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: red;
+  }
+  16% {
+    background-color: orange;
+  }
+  32% {
+    background-color: yellow;
+  }
+  48% {
+    background-color: green;
+  }
+  64% {
+    background-color: blue;
+  }
+  80% {
+    background-color: violet;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+.levelLegendary {
+  font-weight: bold;
+  animation: rainbow 5s linear infinite;
+  background-clip: text;
+  background-color: transparent;
+  color: transparent;
+}
+
+.search-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+#Warning {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#warning p {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-weight: bold;
+  
+}
+
+#searchInput {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+#searchInput::placeholder {
+  color: #ffffff;
+}
+
+@keyframes GreenChangerWelcome {
+  0% {
+    background-color: #4edb51;
+  }
+  50% {
+    background-color: #008000;
+  }
+    100% {
+    background-color: #4edb51;
+  }
+}
+
+#welcome {
+  animation: GreenChangerWelcome 5s linear infinite;
+  transition: color 0.5s;
+  background-clip: text;
+  background-color: transparent;
+  color: transparent;
+}
+
+#welcome:hover: {
+  text-decoration: underline;
+}
+
+img {
+  width: 20%;
+  align-self: center;
+}
+
+.youtube-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.youtube-link:hover {
+  text-decoration: underline;
+}
+
+#aboutimg {
+  width: 60%;
+    left: 14%;
+    position: relative;
+}
+#discordlink {
+  width: 5%
+}
+#youtubelink {
+  width: 5%;
+  left: 30%;
+  position: relative;
+}
