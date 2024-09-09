@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     updateLevelText("levelGood", "images/level_good.png");
     updateLevelText("levelNormal", "images/level_normal.png");
     updateLevelText("levelEpic", "images/level_epic.png");
-    updateLevelText("levelLegendary", "images/level_legendary.png");
+    updateLevelText("levelLegendary", "images/level_legend.png");
 });
 
 // Function to update text content based on ID
