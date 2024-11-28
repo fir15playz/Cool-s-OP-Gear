@@ -1,7 +1,10 @@
-![minecraft_title (7)](https://github.com/user-attachments/assets/48b196f7-d84c-4528-bccb-97e2d3f0ec7f)
+![minecraft_title (8)](https://github.com/user-attachments/assets/47d4673c-bb33-4248-9392-1eac0f8cda66)
 
 # OP-gear
-This is a collection of OP (Over Powered) items for Minecraft
+This is a collection of OP (Over Powered) items for Minecraft.
+
+## My Mission
+I want to compile all of minecraft's MOST OP Commands and Illegal items in one spot for you convenice and fun!
 
 Credits:
 - Im_NotCool
