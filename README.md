@@ -4,9 +4,10 @@
 This is a collection of OP (Over Powered) items for Minecraft.
 
 ## Why I made this
-I want to compile all of minecraft's MOST OP Commands and Illegal items in one spot for you convenice and fun!
+I want to compile all of minecraft's MOST OP Commands and Illegal items in one spot for you convenice and fun! I dont want to take away and credit from the people who inspired me to make this so I will include their name in the Credits scetion
 
-Credits:
+
+## Credits:
 - Im_NotCool
 - MasterGumbo `Most of the Commands`
 - inon13 `Website and Most of the Code`
