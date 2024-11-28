@@ -8,5 +8,5 @@ I want to compile all of minecraft's MOST OP Commands and Illegal items in one s
 
 Credits:
 - Im_NotCool
-- MasterGumbo
-- inon13
+- MasterGumbo `Most of the Commands`
+- inon13 `Website and Most of the Code`
